@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Interactive-Hero-Knowledge/static/css/main.1f9e37ba.css",
+    "main.js": "/Interactive-Hero-Knowledge/static/js/main.e7671ca2.js",
+    "static/js/453.c68cae33.chunk.js": "/Interactive-Hero-Knowledge/static/js/453.c68cae33.chunk.js",
+    "static/media/fundoFrangoComCatupiry.png": "/Interactive-Hero-Knowledge/static/media/fundoFrangoComCatupiry.631fc4a1ecec9d36db47.png",
+    "static/media/fundoPortuguesa.png": "/Interactive-Hero-Knowledge/static/media/fundoPortuguesa.a8d2226cf6c3ccf6e44a.png",
+    "static/media/fundoCalabresa.png": "/Interactive-Hero-Knowledge/static/media/fundoCalabresa.a09d62e3d3e259546274.png",
+    "static/media/fundo4Queijos.png": "/Interactive-Hero-Knowledge/static/media/fundo4Queijos.7f1beba76c319a0cf76b.png",
+    "static/media/fundoMargarita.png": "/Interactive-Hero-Knowledge/static/media/fundoMargarita.dfdc309607c350a7fcc0.png",
+    "static/media/fundoUva.png": "/Interactive-Hero-Knowledge/static/media/fundoUva.43b9672f1ee961ef95c4.png",
+    "static/media/fundoManga.png": "/Interactive-Hero-Knowledge/static/media/fundoManga.8a5396fcf6d105066681.png",
+    "static/media/fundoGoiaba.png": "/Interactive-Hero-Knowledge/static/media/fundoGoiaba.14552347f74c2e016830.png",
+    "static/media/personagem2.png": "/Interactive-Hero-Knowledge/static/media/personagem2.88c08c572781896c3397.png",
+    "static/media/fundoPera.png": "/Interactive-Hero-Knowledge/static/media/fundoPera.47dcf3f3d85f0bd8dceb.png",
+    "static/media/personagem3.png": "/Interactive-Hero-Knowledge/static/media/personagem3.b8688b84dc821d64abf4.png",
+    "static/media/personagem1.png": "/Interactive-Hero-Knowledge/static/media/personagem1.1d780473bfaeb1d4ac56.png",
+    "static/media/personagem4.png": "/Interactive-Hero-Knowledge/static/media/personagem4.68c5965a3b801b2fe76a.png",
+    "static/media/fundoCoraçãoHonestidade.png": "/Interactive-Hero-Knowledge/static/media/fundoCoraçãoHonestidade.e2d9014a0f0d52ac93f0.png",
+    "static/media/fundoCoraçãoResiliencia.png": "/Interactive-Hero-Knowledge/static/media/fundoCoraçãoResiliencia.7498cf9cb94f412bdae0.png",
+    "static/media/fundoCoraçãoEmpatia.png": "/Interactive-Hero-Knowledge/static/media/fundoCoraçãoEmpatia.d17522b16dbdd09a6831.png",
+    "static/media/fundoMaça.png": "/Interactive-Hero-Knowledge/static/media/fundoMaça.90caab204289c97652d4.png",
+    "static/media/fundoCoraçãoGenerosidade.png": "/Interactive-Hero-Knowledge/static/media/fundoCoraçãoGenerosidade.23e99c4c46668303b9d2.png",
+    "static/media/fundoIene.png": "/Interactive-Hero-Knowledge/static/media/fundoIene.2d5b0ec94ed75024ff78.png",
+    "static/media/fundoReal.png": "/Interactive-Hero-Knowledge/static/media/fundoReal.300c975ed5f7d35fa764.png",
+    "static/media/fundoDolar.png": "/Interactive-Hero-Knowledge/static/media/fundoDolar.5b332f27c0c3cf17ac10.png",
+    "static/media/fundoEuro.png": "/Interactive-Hero-Knowledge/static/media/fundoEuro.c5d69de21163ee164ebb.png",
+    "static/media/fundoBitcoin.png": "/Interactive-Hero-Knowledge/static/media/fundoBitcoin.0cf17622fcefa423283b.png",
+    "static/media/fundoCoraçãoPaciencia.png": "/Interactive-Hero-Knowledge/static/media/fundoCoraçãoPaciencia.f9a3bb739b199e55b195.png",
+    "index.html": "/Interactive-Hero-Knowledge/index.html",
+    "main.1f9e37ba.css.map": "/Interactive-Hero-Knowledge/static/css/main.1f9e37ba.css.map",
+    "main.e7671ca2.js.map": "/Interactive-Hero-Knowledge/static/js/main.e7671ca2.js.map",
+    "453.c68cae33.chunk.js.map": "/Interactive-Hero-Knowledge/static/js/453.c68cae33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f9e37ba.css",
+    "static/js/main.e7671ca2.js"
+  ]
+}
