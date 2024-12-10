@@ -1,0 +1,54 @@
+.container{
+    color: #000;
+    height: 24rem;
+    width: 23rem;
+    background-image: url('./../../../public/img/personagem4.png');
+    background-repeat: no-repeat;
+    background-size: 23rem;
+    position: relative;
+}
+.botao1{
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 8rem;
+    text-align: block;
+    margin-top: block;
+    display: block;
+    justify-content: block;
+}
+.botao2{
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 17.5rem;
+    text-align: block;
+    margin-top: block;
+    display: block;
+    justify-content: block;
+}
+.botao3{
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 4rem;
+    text-align: block;
+    margin-top: block;
+    display: block;
+    justify-content: block;
+}
+.botao4{
+    position: absolute;
+    margin-top: 17rem;
+    margin-left: 2rem;
+    text-align: block;
+    margin-top: block;
+    display: block;
+    justify-content: block;
+}
+.botao5{
+    position: absolute;
+    margin-top: 19rem;
+    margin-left: 13rem;
+    text-align: block;
+    margin-top: block;
+    display: block;
+    justify-content: block;
+}

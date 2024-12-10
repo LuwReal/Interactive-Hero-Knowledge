@@ -1,0 +1,838 @@
+.container{
+    color: blue;
+    width: 28rem;
+    height: 35rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(3px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+.containerRoll{
+    display: flex;
+}
+.banner{
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+/*Frutas*/
+.frutas{
+    width: 3rem;
+    height: 3rem;
+}
+.frutas:hover{
+    animation: frutas 0.5s ease forwards;
+}
+@keyframes frutas {
+    0%{
+        transform: translate(0,0);
+        width: 3rem;
+        height: 3rem;
+    }
+    100%{
+        transform: translate(-5%,-5%);
+        width: 4rem;
+        height: 4rem;
+    }
+}
+.containerGoiaba{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #A8C66C;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoGoiaba.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerGoiabaText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #E57373;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.8rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeGoiaba 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeGoiaba{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 0.91rem;
+    }
+}
+.containerPera{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #D1E09E;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoPera.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+/*#D1E09E #E3C16F #A67C52
+#F7F4E9 #FFF9E3*/
+.containerPeraText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #FFF9E3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.8rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizePera 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizePera{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 1.03rem;
+    }
+}
+.containerManga{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #B8390E;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoManga.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerMangaText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #FFC324;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.6rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeManga 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeManga{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 0.98rem;
+    }
+}
+.containerUva{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #4B0082;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoUva.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerUvaText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #F5E0FC;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.9rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeUva 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeUva{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 0.98rem;
+    }
+}
+.containerMaca{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #D71920;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoMaça.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerMaçaText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #FFF5E1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.9rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeMaça 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeMaça{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 0.98rem;
+    }
+}
+/*Final Stilos Frutas*/
+/*Moedas Stilos*/
+.moedas{
+    width: 3rem;
+    height: 3rem;
+}
+.moedas:hover{
+    animation: moedas 0.5s ease forwards;
+}
+@keyframes moedas {
+    0%{
+        transform: translate(0,0);
+        width: 3rem;
+        height: 3rem;
+    }
+    100%{
+        transform: translate(-5%,-5%);
+        width: 4rem;
+        height: 4rem;
+    }
+}
+.containerDolar{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #D4AF37;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoDolar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerDolarText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #E6D8DA;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.9rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeDolar 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeDolar{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 1rem;
+    }
+}
+.containerEuro{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #D4AF37;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoEuro.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerEuroText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #E6D8DA;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.7rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeEuro 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeEuro{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 0.97rem;
+    }
+}
+.containerReal{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #D4AF37;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoReal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerRealText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #E6D8DA;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.9rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeReal 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeReal{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 0.99rem;
+    }
+}
+.containerBitcoin{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #D4AF37;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoBitcoin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerBitcoinText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #E6D8DA;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.9rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeBitcoin 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeBitcoin{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 1rem;
+    }
+}
+.containerIene{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #D4AF37;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoIene.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerIeneText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #E6D8DA;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.9rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeIene 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeIene{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 1.03rem;
+    }
+}
+/*Final Stilos Moedas*/
+/*Pizzas Stilos*/
+.pizzas{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 20px;
+}
+.pizzas:hover{
+    animation: pizza 0.5s ease forwards;
+}
+@keyframes pizza {
+    0%{
+        transform: translate(0,0);
+        width: 3rem;
+        height: 3rem;
+    }
+    100%{
+        transform: translate(-5%,-5%);
+        width: 4rem;
+        height: 4rem;
+    }
+}
+.containerCalabresa{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #D1A26D;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoCalabresa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerCalabresaText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #D9544D;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.9rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeCalabresa 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeCalabresa{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 0.95rem;
+    }
+}
+.containerFrangoComCatupiry{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #C2A78A;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoFrangoComCatupiry.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerFrangoComCatupiryText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #EDE1C3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.9rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeFrangoComCatupiry 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeFrangoComCatupiry{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 0.96rem;
+    }
+}
+.containerPortuguesa{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #D1A26D;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoPortuguesa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+
+.containerPortuguesaText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #D9B58A;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.2rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizePortuguesa 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizePortuguesa{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 1rem;
+    }
+}
+.container4Queijos{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #EDE1A7;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundo4Queijos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.container4QueijosText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #E9E5C3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.9rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSize4Queijos 1s ease 0.05s forwards;
+
+}
+@keyframes FontSize4Queijos{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 1.03rem;
+    }
+}
+.containerMargarita{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #D1A26D;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoMargarita.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerMargaritaText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #9bf39a;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.9rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeMargarita 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeMargarita{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 1rem;
+    }
+}
+/*Final Stilos Pizzas*/
+/*Virtudes Stilos*/
+.virtudes{
+    width: 3rem;
+    height: 3rem;
+}
+.virtudes:hover{
+    animation: virtudes 0.5s ease forwards;
+}
+@keyframes virtudes {
+    0%{
+        transform: translate(0,0);
+        width: 3rem;
+        height: 3rem;
+    }
+    100%{
+        transform: translate(-5%,-5%);
+        width: 4rem;
+        height: 4rem;
+    }
+}
+.containerEmpatia{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #c92222;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoCoraçãoEmpatia.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerEmpatiaText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #FFD1DC;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.9rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeEmpatia 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeEmpatia{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 0.97rem;
+    }
+}
+.containerGenerosidade{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #ADD8E6;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoCoraçãoGenerosidade.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+/*
+#FFD700
+#FFB347
+#F4C2C2
+#ADD8E6
+#90EE90*/
+.containerGenerosidadeText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #F4C2C2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.7rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeGenerosidade 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeGenerosidade{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 1.04rem;
+    }
+}
+.containerResiliencia{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #2E8B57;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoCoraçãoResiliencia.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+/*
+#4B9CD3
+#4682B4
+#6A5ACD
+#2E8B57
+#8B4513
+*/
+.containerResilienciaText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #31c270;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.9rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeResiliencia 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeResiliencia{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 1.02rem;
+    }
+}
+.containerPaciencia{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #ADD8E6;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoCoraçãoPaciencia.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+/*
+#B0E0E6
+#ADD8E6
+#87CEEB
+#98FB98
+#F5DEB3
+*/
+.containerPacienciaText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #87CEEB;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.9rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizePaciencia 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizePaciencia{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 1.05rem;
+    }
+}
+.containerHonestidade{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 18rem;
+    height: 22.5rem;
+    border: 5px solid #1E90FF;
+    border-radius: 2rem;
+    background-image: url('./../../../public/img/fundoCoraçãoHonestidade.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    animation: expandiTextoInformativo 1s ease forwards;
+}
+.containerHonestidadeText{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    background-color: #87CEFA;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.6rem 1rem;
+    font-family: "Josefin Sans", serif;
+    animation: FontSizeHonestidade 1s ease 0.05s forwards;
+
+}
+@keyframes FontSizeHonestidade{
+    0%{
+        font-size: 0rem;
+    }
+    100%{
+        font-size: 1.03rem;
+    }
+}
+/*Final Stilos Virtude*/
+@keyframes expandiTextoInformativo{
+    0%{
+        width: 0rem;
+        height: 0rem;
+        font-size: 0rem;
+        opacity: 0;
+    }
+    100%{
+        width: 19rem;
+        height: 22.5rem;
+        font-size: 1rem;
+        opacity: 1;
+    }
+}
+.botaoVolta{
+    width: 0;
+    height: 0;
+    animation: animaBotaoVolta 3s ease forwards;
+    overflow: hidden;
+}
+@keyframes animaBotaoVolta{
+    0%{
+        width: 0;
+        height: 0;
+    }
+    100%{
+        width: 4rem;
+        height: 1.5rem;
+    }
+}
