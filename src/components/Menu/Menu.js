@@ -335,7 +335,7 @@ function Menu(){
     return(
         <div className={styles.container} >
             <h2>TEssssssss</h2>
-            <img className={styles.banner} src='./img/banner.png' alt='Banner Gamer123' title='Interactive Hero Knowledge'/>
+            <img className={styles.banner} src='./img/goiaba.png' alt='Banner Gamer123' title='Interactive Hero Knowledge'/>
             <div className={styles.containerRoll} style={scrollRollPersonagem}>
                     <Personagem1 
                     botaoMaca={<img className={styles.frutas} onClick={() => fruta(frutas[0])} src='./img/goiaba.png' alt='Fruta Goiaba' title='Goiaba'/>}
